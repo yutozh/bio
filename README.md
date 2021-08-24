@@ -1,10 +1,10 @@
-#### System Requirements
+## System Requirements
 
-##### Hardware requirements
+### Hardware requirements
 
 The program requires a standard computer with at least 8GB RAM to support the in-memory computation.
 
-##### Software requirements
+### Software requirements
 
 - Operating System: Linux Ubuntu 16.04
 - Python version: 3.7.3
@@ -12,7 +12,7 @@ The program requires a standard computer with at least 8GB RAM to support the in
 - R version: 3.4.4
 - R dependencies: MALDIquantForeign(v0.12)
 
-#### Installation Guide
+## Installation Guide
 
 After unzipping the code, install the necessary dependency packages
 
@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 It will take several minutes to install, depends on the network.
 
-#### Directory Structure
+## Directory Structure
 
 ```
 ├── README.md
@@ -44,6 +44,6 @@ It will take several minutes to install, depends on the network.
 
 The `Tools` folder stores tool files, including functions related to file reading and writing, data organization, and metric evaluation. The file `initData.py` in the `mzml2csv` folder is used to reformat the original data, and the mzml format file is converted to csv format by calling the program in R. The file `dataPreprocess` in `preprocess` folder is used to preprocess the converted data. The file `model.py` in `model` folder is the main file of the method and contains the key steps of model training. The `plot ` folder contains two files for drawing confusion matrix and ROC curves. 
 
-#### License
+## License
 
 Apache 2.0 License.
